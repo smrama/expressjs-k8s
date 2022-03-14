@@ -5,7 +5,7 @@ Example to show how to build a microservice with Node.js and Express.js with ins
 ## Clone the repository
 
 ```
-git clone https://github.com/alexellis/expressjs-docker \
+git clone https://github.com/smrama/expressjs-docker \
 && cd expressjs-docker
 ```
 
