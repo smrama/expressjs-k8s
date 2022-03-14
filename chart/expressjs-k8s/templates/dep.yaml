@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "{{ include "expressjs-k8s.fullname" . }}"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: "{{ include "expressjs-k8s.fullname" . }}"
+      {{- include "expressjs-k8s.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        name: "{{ include "expressjs-k8s.fullname" . }}"
+        {{- include "expressjs-k8s.labels" . | nindent 8 }}
+    spec:
+      containers:
+        - name: "{{ include "expressjs-k8s.fullname" . }}-service"
+          image: "{{ .Values.image.repository }}"
+          ports:
+            - containerPort: {{ .Values.service.port }}
+              name: http
