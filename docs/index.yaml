@@ -3,22 +3,13 @@ entries:
   expressjs-k8s:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2019-11-28T12:27:46.394529Z"
+    created: "2022-03-14T11:54:41.7323287Z"
     description: A Helm chart for Kubernetes
-    digest: 0540ee034f8cbe9f9f4dd86f35c2cf1fb61081cc719c97d6f14c2c2b9b1b688b
+    digest: 8ea5aab4fc4c3cd47029de135d9c9ead08a818b3bc621586e7bf2f0e42240f6d
+    icon: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg
     name: expressjs-k8s
     type: application
     urls:
-    - https://alexellis.github.io/expressjs-k8s/expressjs-k8s-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2019-11-28T12:27:46.393565Z"
-    description: A Helm chart for Kubernetes
-    digest: b2cbae14eca3833dff54e42e0c6761e62cbbc88c3d7407dc427eb70e92e81ec2
-    name: expressjs-k8s
-    type: application
-    urls:
-    - https://alexellis.github.io/expressjs-k8s/expressjs-k8s-0.1.0.tgz
+    - https://smrama.github.io/expressjs-k8s/expressjs-k8s-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-28T12:27:46.392655Z"
+generated: "2022-03-14T11:54:41.7319589Z"
